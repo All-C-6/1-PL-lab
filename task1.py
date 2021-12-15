@@ -19,7 +19,7 @@ case _:
 '''
 def calc(str1):
     try:
-        if (float(str1[1]) == 0.0):
+        if ((float(str1[1]) == 0.0) & (str1[2] == "/")):
             return " "
         elif ((str1[2] == '+')):
             result = float(str1[0]) + float(str1[1]) 
